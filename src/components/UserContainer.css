@@ -1,0 +1,36 @@
+.container-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+
+.previous-btn,
+.next-btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  transition: color 0.25s;
+  background-color: var(--300);
+  color: var(--950);
+}
+
+button:hover {
+  background-color: var(--500);
+  color: var(--50);
+}
+
+button:disabled {
+  background-color: var(--50);
+  cursor: not-allowed;
+  color: var(--600);
+}

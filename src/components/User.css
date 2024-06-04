@@ -1,0 +1,73 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--950);
+  border-radius: 10px;
+  margin: 20px;
+  width: 370px;
+  height: 530px;
+  transition: transform 0.3s ease;
+}
+
+.user-container:hover {
+  transform: scale(1.02);
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  min-height: 120px;
+  min-width: 120px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.right-side {
+  background-color: var(--950);
+  color: var(--100);
+  flex: 1;
+  border-radius: 0 0 10px 10px;
+}
+
+.user-name {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--100);
+  margin-bottom: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.company {
+  font-size: 1.2rem;
+  padding-left: 40px;
+}
+
+.phrase {
+  color: var(--300);
+  font-style: italic;
+  margin-left: 10px;
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+.line {
+  height: 1.5px;
+  width: 100%;
+  background-color: var(--200);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.user-info-email,
+.user-info-phone,
+.user-info-website,
+.user-info-address {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  align-items: center;
+  padding-left: 30px;
+}

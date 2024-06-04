@@ -1,0 +1,28 @@
+:root {
+  --50: #f6f7f9;
+  --100: #eceef2;
+  --200: #d4d9e3;
+  --300: #aeb8cb;
+  --400: #8393ad;
+  --500: #637594;
+  --600: #4f5d7a;
+  --700: #445069;
+  --800: #384154;
+  --900: #323948;
+  --950: #212530;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  min-height: 100vh;
+}
